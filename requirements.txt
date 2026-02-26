@@ -1,0 +1,23 @@
+flask
+flask-cors
+firebase-admin
+pyttsx3
+faiss-cpu
+numpy==1.26.4
+requests
+sentence-transformers
+SpeechRecognition
+screen-brightness-control
+
+# Sign language translator runtime (server-side webcam + landmark model)
+opencv-contrib-python==4.11.0.86
+mediapipe==0.10.21
+
+# TensorFlow for loading models/sign_model.h5 on Windows
+tensorflow-intel==2.16.1
+
+# Pin protobuf to satisfy both mediapipe and tensorflow-intel
+protobuf==4.25.8
+
+# Used by sign_language_mouse.py
+pyautogui

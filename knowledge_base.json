@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the Gesture Control feature?",
+    "answer": "Hand Gesture Control allows you to interact with your computer using natural hand movements. Our system tracks your hands with high accuracy and low latency for intuitive control."
+  },
+  {
+    "question": "How does the Eye Tracking System work?",
+    "answer": "Our Eye Tracking System uses a camera to monitor your eye movements and gaze patterns, allowing you to navigate UIs, select items, and control the cursor just by looking."
+  },
+  {
+    "question": "Is my data secure?",
+    "answer": "Absolutely. All image processing for gesture and eye tracking happens locally on your device. No video or personal data is ever sent to the cloud or our servers. Your privacy is our top priority."
+  },
+  {
+    "question": "What are the system requirements?",
+    "answer": "You need a computer with a standard webcam (720p or higher is recommended) and a modern operating system like Windows 10/11 or macOS."
+  },
+  {
+    "question": "How much does the app cost?",
+    "answer": "The Gesture App is currently in a free public beta. We plan to introduce premium features in the future, but a core version will always remain free."
+  },
+  {
+    "question": "Hi",
+    "answer": "Hello! It's great to see you. How can I help you explore the Gesture App today?"
+  },
+  {
+    "question": "Hello",
+    "answer": "Hello there! I'm the Gesture App assistant. Feel free to ask me anything about the app."
+  },
+  {
+    "question": "How are you?",
+    "answer": "I'm a set of algorithms, so I'm always running at peak performance! Thanks for asking. How can I assist you?"
+  },
+  {
+    "question": "Who are you?",
+    "answer": "I am the Gesture App's AI assistant. I'm here to answer your questions about our features, how to use them, and any troubleshooting you might need."
+  },
+  {
+    "question": "Thank you",
+    "answer": "You're very welcome! Let me know if anything else comes to mind."
+  },
+  {
+    "question": "Bye",
+    "answer": "Goodbye! Enjoy controlling the future."
+  },
+  {
+    "question": "How do I get started?",
+    "answer": "It's simple! From the main screen, just click on either the 'Hand Gesture Control' or 'Eye Tracking System' card. This will take you to the control interface where you can activate the feature."
+  },
+  {
+    "question": "How do I use the hand gestures to control things?",
+    "answer": "Once you activate Hand Control, the system will track your hand. To move the mouse pointer, show an open palm to the camera. To click, make a fist. To scroll, you can use a 'peace' sign (V shape with two fingers)."
+  },
+  {
+    "question": "What gestures are available for hand control?",
+    "answer": "The primary gestures are: an open palm for cursor movement, a closed fist for clicking, and a peace sign for scrolling up and down. We are always working on adding more intuitive gestures!"
+  },
+  {
+    "question": "Is Eye Tracking available now?",
+    "answer": "The Eye Tracking System is a sophisticated feature currently in the final stages of development to ensure it's incredibly precise. It will be released in a very near future update. We appreciate your patience!"
+  },
+  {
+    "question": "How will I use the eye tracking feature?",
+    "answer": "When it's released, you will be able to control the cursor by simply looking at different parts of the screen. Actions like clicking will be performed by dwelling (holding your gaze) on an item for a moment or with a specific action like a blink."
+  },
+  {
+    "question": "Hand tracking is not working well or it's laggy.",
+    "answer": "For the best performance, please make sure you are in a well-lit room, but avoid very strong light coming from behind you. A clear, non-cluttered background also helps the system track your hands more accurately."
+  },
+  {
+    "question": "My camera is not detected.",
+    "answer": "Please check that your webcam is properly connected and that no other application (like Zoom or Skype) is currently using it. You may also need to grant permission in your browser or operating system for this app to access the camera."
+  },
+  {
+    "question": "What technology powers this app?",
+    "answer": "This application is built using a Flutter frontend for a beautiful user experience, and a powerful Python backend. The AI and computer vision parts use advanced libraries like OpenCV and MediaPipe for real-time tracking."
+  },
+  {
+    "question": "Do I need a special camera?",
+    "answer": "No, a special camera is not required. Any standard USB webcam or built-in laptop camera will work. However, a camera with a 720p resolution or higher is recommended for the best tracking accuracy."
+  },
+  {
+    "question": "Can I use this on my phone?",
+    "answer": "Currently, the Gesture App is designed for desktop operating systems like Windows and macOS to control the main computer interface. A mobile version is something we are considering for the future."
+  },
+  {
+    "question": "How do I turn off a control mode?",
+    "answer": "To exit from either the Hand or Eye control interface, simply click the '← Back' button at the top-left of the screen. This will safely deactivate the tracking and return you to the main menu."
+  },
+  {
+    "question": "Who are the developers of this app?",
+    "answer": "This app was proudly developed by Joymon, Risni, Lojin, and Sona! You can see a special thanks to them on the 'About' page, accessible from the sidebar menu."
+  },
+  {
+    "question": "Tell me a joke.",
+    "answer": "Why did the computer go to the doctor? Because it had a virus! ...Don't worry, our app is perfectly healthy."
+  },
+  {
+    "question": "What is the 'About' page?",
+    "answer": "The 'About' page is a special section to give credit and thanks to the talented developers who created this application. You can access it from the sidebar menu."
+  }
+]

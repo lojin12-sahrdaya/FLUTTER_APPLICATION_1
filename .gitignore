@@ -12,6 +12,19 @@
 .swiftpm/
 migrate_working_dir/
 
+# Ignore datasets
+datasets/
+
+# Ignore python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
+.venv/
+
+# Ignore database
+*.db
+
 # IntelliJ related
 *.iml
 *.ipr

@@ -1,0 +1,34 @@
+[
+  {
+    "title": "App_Overview.txt",
+    "content": "App Overview\n\nGesture Space\n\nGesture Space is a hands-free desktop control application that allows users to interact with their computer using natural hand gestures, eye movement, and voice commands. Built for accessibility and innovation, it simplifies digital interaction and enhances user experience across different functionalities including basic cursor control and clicking.\n\nCore Technologies: - MediaPipe for Hand Tracking - OpenCV for video processing - Dlib for Eye Tracking - Firebase for Database integration - Novita AI for Chatbot interactions - Python and Flask for backend - HTML/CSS/JS for frontend"
+  },
+  {
+    "title": "Code_Snippets.txt",
+    "content": "Code Snippets\n\n1. Hand Tracking Initialization:\n\nimport mediapipe as mp\n\nhands = mp.solutions.hands.Hands()\n\n2. Eye Gaze Detection:\n\nimport dlib\n\ndetector = dlib.get_frontal_face_detector()\n\n3. Firebase Setup:\n\nimport firebase_admin\n\nfrom firebase_admin import credentials\n\ncred = credentials.Certificate(\"firebase\n\nkey.json\")\n\nfirebase_admin.initialize_app(cred)\n\n4. Voice Command Sample:\n\nimport speech_recognition as sr\n\nr = sr.Recognizer()"
+  },
+  {
+    "title": "FAQ.txt",
+    "content": "Frequently Asked Questions (FAQ)\n\nQ1: Do I need an internet connection to use Gesture Space? A: An internet connection is required for features that rely on cloud services such as the AI assistant powered by Novita AI and Firebase integration for real-time data storage. However, basic functionalities like hand gesture control and eye tracking may work offline, provided all required models and libraries are installed locally.\n\nQ2: Can Gesture Space work in low lighting? A: Gesture recognition accuracy may decrease in low lighting conditions. It is recommended to operate in a well-lit environment with minimal background clutter to ensure reliable gesture tracking.\n\nQ3: Is Gesture Space compatible with all types of webcams? A: Most modern webcams are supported, especially those with a minimum resolution of 720p. Higher resolution cameras (1080p or above) are recommended for better tracking performance.\n\nQ4: What operating systems are supported? A: Gesture Space is currently optimized for Windows OS. Future versions may include support for macOS and Linux depending on user demand.\n\nQ5: What voice commands are available? A: Voice commands include: - \"Left Click\" - \"Right Click\" - \"Double Click\" - \"Scroll Up\" - \"Scroll Down\" - \"Drag Start\" - \"Drag End\" These commands must be spoken clearly and may require internet access depending on the voice recognition engine.\n\nQ6: Can I calibrate gesture sensitivity? A: Calibration features will be introduced in upcoming versions. Currently, sensitivity is fixed to ensure stable performance across standard devices.\n\nQ7: Can I disable certain modules I don't use? A: Yes, you can selectively activate or deactivate hand control or eye tracking modules from the home interface.\n\nQ8: How do I update Gesture Space? A: Updates will be available through the official download portal or via in-app notification once connected to the internet.\n\nQ9: Where can I get support or report a bug? A: You can contact the developer team at gesturespace41@gmail.com or use the built-in \"Rate & Feedback\" option in the application menu."
+  },
+  {
+    "title": "Feature_Description.txt",
+    "content": "Feature Description\n\n1. **Hand Gesture Control** - Real-time hand tracking with gestures like click, scroll, and volume control.\n\n2. **Eye Tracking System** - Cursor movement using head and gaze detection.\n\n3. **Sign Language Mouse** - Use defined signs to interact with the mouse, making the app accessible to hearing-impaired users.\n\n4. **AI Assistant** - Novita AI integrated chatbot for answering user queries and help.\n\n5. **Firebase Integration** - Real-time data sync and storage of preferences, logs, and feedback."
+  },
+  {
+    "title": "Known_Issues_and_Limitations.txt",
+    "content": "Known Issues and Limitations\n\n1. Gesture tracking may lag under poor lighting or background clutter. 2. Limited sign language gesture set; more signs under development. 3. Eye tracking may be affected by glasses or camera angle. 4. Chatbot queries may take time depending on network speed."
+  },
+  {
+    "title": "Release_Notes.txt",
+    "content": "Release Notes\n\nGesture Space v1.0\n\nInitial release with:\n\nHand gesture mouse control\n\nEye tracking cursor movement\n\nBasic sign language control module\n\nVoice command integration\n\nAI Chatbot (Novita AI)\n\nFirebase database integration\n\nUI/UX in dark mode with intuitive navigation\n\nFeedback and Help sections added"
+  },
+  {  
+    "title": "Shortcuts_and_Tips.txt",
+    "content": "Shortcuts, Special Usage Tips\n\n- **Sign Language Mouse Controls**:\n  - **'A'**: Toggle Cursor Movement (On/Off)\n  - **'L'**: Left Click\n  - **'R'**: Right Click\n  - **'D'**: Double Click\n  - **'G'**: Toggle Drag (Mouse Down/Up)\n  - **'U'**: Scroll Up\n  - **'O'**: Scroll Down\n\n- **General Tips**:\n  - Use under good lighting conditions\n  - Keep background clear of distractions\n  - Hold gestures for 1 second for stable recognition\n  - Ensure your hand is clearly visible to the camera\n\n  VOICE COMMAND TIPS\n- Start commands with action verbs: \"open,\" \"start,\" \"stop,\" \"activate\"\n- For websites, say \"open [website]\" (e.g., \"open YouTube\")\n- To switch features, say \"start [feature]\" (e.g., \"start hand gestures\")\n- Please do not refer to removed features like virtual instruments\n- Speak at normal volume and pace\n\nPERFORMANCE OPTIMIZATION\n- Use in well-lit environment (avoid backlighting)\n- Position camera at eye level for best tracking\n- Keep 18-24 inches distance from camera\n- Close CPU-intensive applications if lag occurs"
+  },
+  {
+    "title": "User_Guide_and_Instructions.txt",
+    "content": "User Guides and Instructions\n\n1. **Launching the App** - Open the Gesture Space application. - Allow webcam and microphone permissions if prompted.\n\n2. **Activating Controls** - Navigate to the \"Hand Gesture Control\" or \"Sign Language Mouse\" section. - Click \"Activate\" and ensure good lighting for optimal tracking.\n\n3. **Using Sign Language Translator**\n   - Navigate to the \"Sign Language Translator\" tab.\n   - Click \"Start Camera\" to begin.\n   - Perform ASL signs in front of the camera.\n   - The translated text will appear on the screen in real-time.\n   - Use the \"Clear\" button to reset the text buffer.\n   - Text to Speech can be enabled to hear the translation.\n\n4. **Using Eye & Voice Control** - In \"Eye Tracking System\", move your head to control cursor. - Speak voice commands like \"Left Click\", \"Scroll Down\", \"Double Click\" for interaction."
+  }
+]
